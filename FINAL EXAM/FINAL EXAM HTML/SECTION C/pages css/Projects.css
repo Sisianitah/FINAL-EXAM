@@ -1,0 +1,78 @@
+nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: plum;
+    padding:  0;
+    display: flex;
+    margin-left: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.nav-brand {
+    color: #20c8f2;
+    font-size: 1.5rem;
+    align-content: flex-end;
+    margin-right: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2.3rem;
+}
+
+.nav-links a {
+    color: #0c2125;
+    text-decoration: none;
+    font-size: 30px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #0fe913;
+}
+.profile-pic {
+    background-image: url(./images/IMG-20240925-WA0005.jpg);
+    width: 100px;
+    border-radius: 300%;
+    margin: 20px auto;
+    display: block;
+}
+.avator {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    border-radius: 90%;
+    margin-top: 0px;
+}
+.social-icons {
+    margin: right;
+    align-items: flex-end;
+    display: flex;
+    gap: 2.3rem;
+}
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin-top: 150px;
+    background-color: #007acc;
+    padding: 20px;
+    color: rgb(5, 5, 5);
+}
+.intro h1 {
+    font-size: 2.5;
+    color: #221c1c;
+}
+.profile-image img {
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+}
+.cta a {
+    color: #007acc;
+    font-weight: bold;
+}
